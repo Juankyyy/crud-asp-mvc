@@ -4,16 +4,21 @@
     ViewBag.Favicon = "usuarios.svg";
 }
 
+<div class="route container mt-5">
+    <a asp-area="" asp-controller="Dashboard" asp-action="Index">Inicio</a>
+    <p>Gestión de Usuarios</p>
+</div>
+
 <section class="main-show">
     <div class="info">
-        <p>Nombres: Juanky</p>
-        <p>Apellidos: H</p>
-        <p>Correo: juanky@gmail.com</p>
-        <p>Genero: M</p>
-        <p>Edad: 19</p>
+        <p><strong>Nombres: </strong>Juanky</p>
+        <p><strong>Apellidos: </strong>H</p>
+        <p><strong>Correo: </strong>juanky@gmail.com</p>
+        <p><strong>Genero: </strong>M</p>
+        <p><strong>Edad: </strong>19</p>
     </div>
     
     <div class="usuarios">
-        <a asp-area="" asp-controller="Usuarios" asp-action="Index">Ver Lista Usuarios</a>
+        <a class="btn btn-primary" asp-area="" asp-controller="Usuarios" asp-action="Index">Ver Lista Usuarios</a>
     </div>
 </section>

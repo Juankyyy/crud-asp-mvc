@@ -1,0 +1,48 @@
+@{
+    ViewBag.Title = "Editar Usuario";
+    ViewBag.Css = "usuarios.css";
+    ViewBag.Favicon = "usuarios.svg";
+}
+
+<div class="route container mt-5">
+    <a asp-area="" asp-controller="Usuarios" asp-action="Index">Inicio</a>
+    <p>Editar usuario</p>
+</div>
+
+<section class="main-show">
+    <form class="form">
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombres:</label>
+            <input type="text" class="form-control" id="name" autofocus value="Juanky">
+        </div>
+
+        <div class="mb-3">
+            <label for="lastname" class="form-label">Apellidos:</label>
+            <input type="text" class="form-control" id="lastname" value="Herrera">
+        </div>
+        
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo:</label>
+            <input type="email" class="form-control" id="email" value="juanky@gmail.com">
+        </div>
+
+        <div class="mb-3">
+            <label for="age" class="form-label">Edad:</label>
+            <input type="number" class="form-control" id="age" value="19">
+        </div>
+
+        <div class="mb-3 w-100">
+            <label for="gender" class="form-label">Genero:</label>
+            <select class="form-select" id="gender" role="button">
+                <option disabled>Elegir</option>
+                <option selected value="M">Masculino</option>
+                <option value="F">Femenino</option>
+                <option value="O">Otro</option>
+            </select>
+        </div>
+
+        @* <button type="submit" class="btn btn-primary">Submit</button> *@
+    </form>
+
+    <a class="btn btn-success" asp-area="" asp-controller="Usuarios" asp-action="Update">Editar usuario</a>
+</section>

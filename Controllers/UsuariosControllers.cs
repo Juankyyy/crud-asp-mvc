@@ -23,6 +23,11 @@ namespace Mvc.Controllers
         {
             return View();
         }
+
+        public IActionResult Update()
+        {
+            return View();
+        }
         
         public IActionResult Delete()
         {
