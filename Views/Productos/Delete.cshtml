@@ -1,0 +1,16 @@
+@{
+    ViewBag.Title = "Eliminar Producto";
+    ViewBag.Css = "productos.css";
+    ViewBag.Favicon = "productos.svg";
+}
+
+<div class="route container mt-5">
+    <a asp-area="" asp-controller="Productos" asp-action="Index">Inicio</a>
+    <p>Eliminar producto</p>
+</div>
+
+<div class="main-show">
+    <h3>El producto se ha eliminado con éxito >:)</h3>
+
+    <a class="btn btn-primary" asp-area="" asp-controller="Productos" asp-action="Index">Volver</a>
+</div>

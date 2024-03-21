@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3CpYfMvSaelf9Zor6bCzn5XnLfrh8rNmWorNkP4Xoq4=",
+  "Hash": "NwnR/pTW5SexAWfErvSL1rKby8ODs3m/MHOVUi3Z0dg=",
   "Source": "Crud",
   "BasePath": "_content/Crud",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
+    },
+    {
+      "Identity": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\crud-asp-mvc\\wwwroot\\css\\productos.css",
+      "SourceId": "Crud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\crud-asp-mvc\\wwwroot\\",
+      "BasePath": "_content/Crud",
+      "RelativePath": "css/productos.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\productos.css"
     },
     {
       "Identity": "C:\\Users\\Juanky\\Documents\\Code\\CSharp\\ASP\\crud-asp-mvc\\wwwroot\\css\\site.css",

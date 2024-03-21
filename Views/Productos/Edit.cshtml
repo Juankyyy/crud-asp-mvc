@@ -1,0 +1,38 @@
+@{
+    ViewBag.Title = "Editar Producto";
+    ViewBag.Css = "productos.css";
+    ViewBag.Favicon = "productos.svg";
+}
+
+<div class="route container mt-5">
+    <a asp-area="" asp-controller="Productos" asp-action="Index">Inicio</a>
+    <p>Editar producto</p>
+</div>
+
+<section class="main-show">
+    <form class="form">
+        <div class="mb-3">
+            <label for="img" class="form-label">Imagen:</label>
+            <input type="text" class="form-control" id="img" autofocus placeholder="URL" value="https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12002073.png">
+        </div>
+
+        <div class="mb-3">
+            <label for="price" class="form-label">Precio:</label>
+            <input type="number" class="form-control" id="price" value="5000">
+        </div>
+        
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombre del producto:</label>
+            <input type="text" class="form-control" id="name" value="Arroz">
+        </div>
+
+        <div class="mb-3">
+            <label for="quantity" class="form-label">Cantidad</label>
+            <input type="number" class="form-control" id="quantity" value="2">
+        </div>
+
+        @* <button type="submit" class="btn btn-primary">Submit</button> *@
+    </form>
+
+    <a class="btn btn-success" asp-area="" asp-controller="Productos" asp-action="Update">Editar producto</a>
+</section>

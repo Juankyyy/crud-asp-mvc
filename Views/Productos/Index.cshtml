@@ -10,7 +10,7 @@
         <p>Gestión de Productos</p>
     </div>
 
-    <a class="btn btn-primary mb-5" asp-area="" asp-controller="Usuarios" asp-action="Create">Crear nuevo Producto</a>
+    <a class="btn btn-primary mb-5" asp-area="" asp-controller="Productos" asp-action="Create">Crear nuevo Producto</a>
 
     <table class="table table-striped">
         <thead>
@@ -22,31 +22,16 @@
         </thead>
         <tbody>
             <tr>
-                <td></td>
+                <td><img src="https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12002073.png" alt="Arroz D1"></td>
                 <td>Arroz</td>
                 <td><strong>$ </strong>5000</td>
                 <td>2</td>
                 <td>
-                    <a class="btn btn-sm btn-primary" asp-area="" asp-controller="Usuarios" asp-action="Show">Detalles</a>
-                    <a class="btn btn-sm btn-primary" asp-area="" asp-controller="Usuarios" asp-action="Edit">Editar</a>
-                    <a class="btn btn-sm btn-primary" asp-area="" asp-controller="Usuarios" asp-action="Delete">Eliminar</a>
+                    <a class="btn btn-sm btn-primary" asp-area="" asp-controller="Productos" asp-action="Show">Detalles</a>
+                    <a class="btn btn-sm btn-primary" asp-area="" asp-controller="Productos" asp-action="Edit">Editar</a>
+                    <a class="btn btn-sm btn-primary" asp-area="" asp-controller="Productos" asp-action="Delete">Eliminar</a>
                 </td>
             </tr>
-
-            @* @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@item.Nombre</td>
-                    <td>@item.Apellidos</td>
-                    <td>@item.Correo</td>
-                    <td>@item.Genero</td>
-                    <td>@item.Edad</td>
-                    <td>
-                        <a asp-area="" asp-controller="Usuarios" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
-                        <a asp-area="" asp-controller="Usuarios" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
-                    </td>
-                </tr>
-            } *@
         </tbody>
     </table>
 </section>

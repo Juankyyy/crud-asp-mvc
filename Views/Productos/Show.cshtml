@@ -1,0 +1,29 @@
+@{
+    ViewBag.Title = "Mostrar Producto";
+    ViewBag.Css = "productos.css";
+    ViewBag.Favicon = "productos.svg";
+}
+
+<div class="route container mt-5">
+    <a asp-area="" asp-controller="Productos" asp-action="Index">Inicio</a>
+    <p>Mostrar Producto</p>
+</div>
+
+<section class="main-show">
+    <div class="info">
+        <div class="img">
+            <img src="https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12002073.png" alt="Arroz D1">
+        </div>
+
+        <div class="info-text">
+            <p><strong>Url: </strong>https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12002073.png</p>
+            <p><strong>Nombre del producto: </strong>Arroz</p>
+            <p><strong>Precio: </strong>$ 5000</p>
+            <p><strong>Cantidad: </strong>2</p>
+        </div>
+    </div>
+    
+    <div class="usuarios">
+        <a class="btn btn-primary" asp-area="" asp-controller="Productos" asp-action="Index">Ver Lista Productos</a>
+    </div>
+</section>

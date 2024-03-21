@@ -1,0 +1,38 @@
+@{
+    ViewBag.Title = "Crear Producto";
+    ViewBag.Css = "productos.css";
+    ViewBag.Favicon = "productos.svg";
+}
+
+<div class="route container mt-5">
+    <a asp-area="" asp-controller="Productos" asp-action="Index">Inicio</a>
+    <p>Crear nuevo producto</p>
+</div>
+
+<section class="main-show">
+    <form class="form">
+        <div class="mb-3">
+            <label for="img" class="form-label">Imagen:</label>
+            <input type="text" class="form-control" id="img" autofocus placeholder="URL">
+        </div>
+
+        <div class="mb-3">
+            <label for="price" class="form-label">Precio:</label>
+            <input type="number" class="form-control" id="price">
+        </div>
+        
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombre del producto:</label>
+            <input type="text" class="form-control" id="name">
+        </div>
+
+        <div class="mb-3">
+            <label for="quantity" class="form-label">Cantidad</label>
+            <input type="number" class="form-control" id="quantity">
+        </div>
+
+        @* <button type="submit" class="btn btn-primary">Submit</button> *@
+    </form>
+
+    <a class="btn btn-success" asp-area="" asp-controller="Productos" asp-action="Index">Crear nuevo producto</a>
+</section>
