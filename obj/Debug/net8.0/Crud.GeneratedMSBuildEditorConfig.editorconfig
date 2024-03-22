@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Juanky\Documents\Code\CSharp\ASP\crud-asp-mvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Juanky/Documents/Code/CSharp/ASP/crud-asp-mvc/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Juanky/Documents/Code/CSharp/ASP/crud-asp-mvc/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Juanky/Documents/Code/CSharp/ASP/crud-asp-mvc/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,10 +52,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Juanky/Documents/Code/CSharp/ASP/crud-asp-mvc/Views/Productos/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXFVwZGF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Juanky/Documents/Code/CSharp/ASP/crud-asp-mvc/Views/Register/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Juanky/Documents/Code/CSharp/ASP/crud-asp-mvc/Views/Shared/Error.cshtml]
